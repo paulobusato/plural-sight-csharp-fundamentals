@@ -1,0 +1,11 @@
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.deps.json
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.runtimeconfig.json
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.runtimeconfig.dev.json
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.dll
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.pdb
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.csprojAssemblyReference.cache
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.AssemblyInfoInputs.cache
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.AssemblyInfo.cs
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.dll
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.pdb
