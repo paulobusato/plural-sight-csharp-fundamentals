@@ -92,3 +92,6 @@
 /home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp3.1/GradeBook.Tests.csproj.CopyComplete
 /home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp3.1/GradeBook.Tests.dll
 /home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp3.1/GradeBook.Tests.pdb
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp3.1/GradeBook
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp3.1/GradeBook.dll
+/home/paulobusato/Documents/development/pluralsight/csharp-fundamentals/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp3.1/GradeBook.pdb

@@ -7,32 +7,91 @@ namespace GradeBook
     {
         public Book(string name)
         {
-            this.grades = new List<double>();
-            this.name = name;
-        }
-        public void AddGrade(double grade)
-        {
-            this.grades.Add(grade);
+            grades = new List<double>();
+            Name = name;
         }
 
-        public void ShowStatistics()
+        public void AddGrade(char letter)
         {
-            var result = 0.0;
-            var highGrade = double.MinValue;
-            var lowGrade = double.MaxValue;
-            foreach(double number in grades)
+            switch (letter)
             {
-                lowGrade = Math.Min(number, lowGrade);
-                highGrade = Math.Max(number, highGrade);
-                result += number;
+                case 'A':
+                    AddGrade(90);
+                    break;
+                case 'B':
+                    AddGrade(80);
+                    break;
+                case 'C':
+                    AddGrade(70);
+                    break;
+                default:
+                    AddGrade(0);
+                    break;
             }
-            result /= grades.Count;
-            Console.WriteLine($"The lowest grade is {lowGrade:N2}");
-            Console.WriteLine($"The highest grade is {highGrade:N2}");
-            Console.WriteLine($"The average grade is {result:N2}");
+        }
+
+        public void AddGrade(double grade)
+        {
+            if (grade >= 0 && grade <= 100)
+            {
+                grades.Add(grade);
+            }
+            else
+            {
+                throw new ArgumentException($"Invalid {nameof(grade)}");
+            }
+        }
+
+        public Statistics GetStatistics()
+        {
+            var result = new Statistics();
+            result.Average = 0.0;
+            result.High = double.MinValue;
+            result.Low = double.MaxValue;
+
+            for(var index = 0; index < grades.Count; index++)
+            {
+                if (grades[index] == 42.1)
+                {
+                    continue;
+                }
+                
+                result.Low = Math.Min(grades[index], result.Low);
+                result.High = Math.Max(grades[index], result.High);
+                result.Average += grades[index];
+            }
+
+            result.Average /= grades.Count;
+
+            switch (result.Average)
+            {
+                case var d when d >= 90.0:
+                    result.Letter = 'A';
+                    break;
+                case var d when d >= 80.0:
+                    result.Letter = 'B';
+                    break;
+                case var d when d >= 70.0:
+                    result.Letter = 'C';
+                    break;
+                case var d when d >= 60.0:
+                    result.Letter = 'D';
+                    break;
+                default:
+                    result.Letter = 'F';
+                    break;
+            }
+
+            return result;
         }
 
         List<double> grades;
-        private readonly string name;
+
+        public string Name
+        {
+            get;
+            private set;
+        }
+        public const string CATEGORY = "Science";
     }
 }
